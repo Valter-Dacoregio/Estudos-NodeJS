@@ -1,0 +1,69 @@
+
+//***************************************************************************
+//************************ COMANDOS PARA NODE ******************************
+//***************************************************************************
+
+// CRIANDO UM NOVO PROJETO
+$ npm init
+
+// APENAS É NECESSÁRIO INFORMAR A PASTA RAIZ DO PROJETO
+// app.js
+
+
+//*******************************************
+// INICIALIZAÇÃO DA API
+//*******************************************
+$ node app.js
+
+
+//*******************************************
+// INSTALANDO O EXPRESS
+//*******************************************
+$ npm install express --save
+
+
+//********************************************************
+// INSTALAÇÃO DO BODY PARSE
+//********************************************************
+$ npm install body-parser --save
+
+
+//********************************************************
+// UTILIZAÇÃO DO MONGO DB
+//********************************************************
+// CREDENCIAL DE CONEXÃO DO MONGO DB
+mongodb+srv://usuario_admin:<password>@clusterapi.yhnkk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+
+
+//********************************************************
+// INSTALAÇÃO DO MONGOOSE NO PROJETO
+//********************************************************
+
+// INSTALAÇÃO DO MONGOOSE
+$ npm install mongoose --save
+
+
+
+
+//********************************************************
+// INSTALAÇÃO DO BCRYPT NO PROJETO
+//********************************************************
+$ npm install bcrypt -- save
+
+
+
+//********************************************************
+// INSTALAÇÃO DO JSONWEBTOKEN JWT
+//********************************************************
+$ npm install jsonwebtoken --save
+
+
+
+//********************************************************
+// MANIPULAÇÃO DO VARIÁVEL DE AMBIENTE DO NODE: NODE_ENV
+//********************************************************
+$ set NODE_ENV=prod // WINDOWS
+$ export NODE_ENV=prod // LINUX E MAC
+
+
